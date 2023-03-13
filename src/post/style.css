@@ -1,0 +1,42 @@
+.post{
+    color: white;
+    background-color: rgb(40, 52, 69);
+    padding:0 10px 30px ;
+    margin-bottom: 1px;
+}
+.content{
+    margin:1% 7%;
+    width: 90%;
+}
+.postHeader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: grey;
+}
+.verifiedIcon{
+    width: 25px;
+    height: 25px;
+}
+.authorName{
+    gap: 10px;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.postBody{
+    display: flex;
+    flex-direction: column;
+}
+.userDesk{
+    margin: auto;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.userDesk img{
+    width: 50px;
+}

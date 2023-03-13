@@ -1,0 +1,43 @@
+.App {
+  padding:100px 200px;
+}
+.button{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(40, 52, 69);
+  border: none;
+  margin: auto;
+  border-radius: 10%;
+  color: white;
+}
+.button:active{
+  width: 103px;
+  height: 51px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+
+}
+input{
+  width: 90%;
+}
+.form{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0px;
+  margin:30px auto;
+  box-shadow: 2px 2px 2px 2px rgb(40, 52, 69);
+}
+.select{
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+}
